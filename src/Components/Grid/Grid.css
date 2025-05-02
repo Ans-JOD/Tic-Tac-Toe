@@ -1,0 +1,31 @@
+.grid-wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turn-highlight{
+    color: white;
+}
+
+
+.reset{
+    cursor: pointer;
+    padding: 0.3rem;
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 10rem;
+    font-size: 1rem;
+}
