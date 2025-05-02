@@ -1,12 +1,12 @@
-.card{
+.card {
+    width: 30%; /* roughly 3 cards per row */
+    aspect-ratio: 1 / 1; /* square */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    width: 120px;
-    height: 120px;
     border: 1px solid black;
     border-radius: 10%;
     background-color: var(--yellow);
     cursor: pointer;
+    font-size: 2rem; /* scalable text */
 }

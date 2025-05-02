@@ -6,14 +6,17 @@
     
 }
 
-.grid{
-    width: 500px;
-    height: 500px;
+.grid {
+    width: 90vw; /* 90% of viewport width */
+    max-width: 500px; /* Limit for larger screens */
+    aspect-ratio: 1 / 1; /* Makes it a perfect square */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .turn-highlight{
     color: white;
@@ -29,3 +32,10 @@
     border-radius: 10rem;
     font-size: 1rem;
 }
+
+@media (max-width: 600px) {
+    .turn-highlight, .reset {
+      font-size: 1rem;
+    }
+  }
+  
